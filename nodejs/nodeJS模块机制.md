@@ -85,25 +85,25 @@ CommonJS Modules/1.1.1
 
 ## nodeJS模块载入策略  
 1.模块的分类：Node.js的模块分为两类.  
-  (1)原生（核心）模块  
-  (2)文件模块：文件模块又根据后缀名分为三类.
-     <1>.js
-     <2>.node
-     <3>.json
-2.require方法中的文件查找策略:
-  当开始require模块，则首先判断加载的模块是否在文件模块缓存区中。
-  若require的模块在文件模块缓存区中，则直接返回exports对象。否则，会接着判断require的模块是否原生模块:
-    (1)是，则再判断require的模块是否在原生模块缓存区中，是则返回exports，否则加载原生模块并缓存原生模块，然后返回exports
-    (2)否，则查找文件模块，根据扩展名载入文件模块，并缓存文件模块，最后返回exports.
+  (1)原生（核心）模块    
+  (2)文件模块：文件模块又根据后缀名分为三类.  
+     <1>.js  
+     <2>.node  
+     <3>.json  
+2.require方法中的文件查找策略:  
+  当开始require模块，则首先判断加载的模块是否在文件模块缓存区中。  
+  若require的模块在文件模块缓存区中，则直接返回exports对象。否则，会接着判断require的模块  是否原生模块:  
+    (1)是，则再判断require的模块是否在原生模块缓存区中，是则返回exports，否则加载原生模块并缓存原生模块，然后返回exports  
+    (2)否，则查找文件模块，根据扩展名载入文件模块，并缓存文件模块，最后返回exports.  
 
-  总结:
-  (1)文件模块缓存优先级最高。
-  (2)加载的模块是原生模块的话，原生模块缓存区的优先级最高，其次再是原生模块。
-  (3)加载的模块是非原生模块的话，根据文件模块的扩展名载入模块。
+  总结:  
+  (1)文件模块缓存优先级最高。  
+  (2)加载的模块是原生模块的话，原生模块缓存区的优先级最高，其次再是原生模块。  
+  (3)加载的模块是非原生模块的话，根据文件模块的扩展名载入模块。  
 
-3.其背后的代码运行基本原理是：
-  (1).先假设我们有两个js文件：app.js和circle.js
-  circle.js:
+3.其背后的代码运行基本原理是：  
+  (1).先假设我们有两个js文件：app.js和circle.js  
+  circle.js:  
   var PI = Math.PI;
   exports.area = function (r) {
       return PI * r * r;
@@ -115,16 +115,15 @@ CommonJS Modules/1.1.1
   var circle = require('./circle.js');
   console.log( 'The area of a circle of radius 4 is ' + circle.area(4));
 
-  (2).在命令行执行node app.js，其会调用lib/module.js的
+  (2).在命令行执行node app.js，其会调用lib/module.js的  
   Module.runMain = function () {
     Module._load(process.argv[1], null, true);
-  };
-
-  Module._load方法通过分析文件名(即根据上述模块类型分析当前模块的类型，然后按照上述的require文件查找策略进行查找)，若没有则对文件进行包装编译，然后实例模块
+  };  
+  Module._load方法通过分析文件名(即根据上述模块类型分析当前模块的类型，然后按照上述的require文件查找策略进行查找)，若没有则对文件进行包装编译，然后实例模块  
   var module =  new Module(id,parent);
-  再然后调用该module的load方法加载模块文件.
+  再然后调用该module的load方法加载模块文件.  
 
-# 部分源码摘录：连构造函数总共8个方法
+# 部分源码摘录：连构造函数总共8个方法  
 function Module(id, parent) {
   this.id = id;
   this.exports = {};
