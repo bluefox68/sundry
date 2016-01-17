@@ -1,67 +1,67 @@
-# 参考文章：
-1.http://www.infoq.com/cn/articles/nodejs-module-mechanism/
-2.http://frontenddev.org/link/nguyen-other-teacher-of-nodejs-interpret-the-require-of-the-source-code.html
+# 参考文章： 
+1.http://www.infoq.com/cn/articles/nodejs-module-mechanism/  
+2.http://frontenddev.org/link/nguyen-other-teacher-of-nodejs-interpret-the-require-of-the-source-code.html  
 
-## nodeJS模块产生的时代背景
-概括的讲：随着JavaScript在前端的应用越来越广泛，以及服务端JavaScript的推动，JavaScript现有的规范十分薄弱，不利于JavaScript大规模的应用。
+## nodeJS模块产生的时代背景  
+概括的讲：随着JavaScript在前端的应用越来越广泛，以及服务端JavaScript的推动，JavaScript现有的规范十分薄弱，不利于JavaScript大规模的应用。  
 
-表现：表现在以JavaScript为宿主语言的环境中，javascript只有本身的基础原生对象和类型，更多的对象和API都取决于宿主提供。
+表现：表现在以JavaScript为宿主语言的环境中，javascript只有本身的基础原生对象和类型，更多的对象和API都取决于宿主提供。  
 
-跟一些同类可以适用大规模应用的语言相比：
-1.JavaScript没有模块系统。
-2.JavaScript没有标准库。
-3.JavaScript没有标准接口。
-4.JavaScript没有包管理系统。
+跟一些同类可以适用大规模应用的语言相比：  
+1.JavaScript没有模块系统。  
+2.JavaScript没有标准库。  
+3.JavaScript没有标准接口。  
+4.JavaScript没有包管理系统。   
 
 ## 模块系统具体解决的问题：
-1.提供了一个密闭的作用域；
-2.使依赖管理变的非常方便；
-3.导出API方便其他人使用；
+1.提供了一个密闭的作用域；  
+2.使依赖管理变的非常方便；  
+3.导出API方便其他人使用；  
 
-以上三个问题的解决为JavaScript大规模的应用奠定了基础。
+以上三个问题的解决为JavaScript大规模的应用奠定了基础。  
 
-## CommonJS规范：
-官方网站：http://commonjs.org/
+## CommonJS规范：  
+官方网站：http://commonjs.org/  
 
-### nodeJS模块机制 和CommonsJS规范的关系 
-nodeJS模块机制是CommonJS规范的一个实现 
+### nodeJS模块机制 和CommonsJS规范的关系   
+nodeJS模块机制是CommonJS规范的一个实现   
 
-### CommonJS的目标
-构建一个使Javascript用于更广泛的应用程序的标准库,类似Python，Ruby和Java标准库的一样。
-例如：用以一下应用程序
-服务器端JavaScript应用程序
-命令行工具
-图形界面应用程序
-混合应用程序
+### CommonJS的目标  
+构建一个使Javascript用于更广泛的应用程序的标准库,类似Python，Ruby和Java标准库的一样。  
+例如：用以一下应用程序  
+服务器端JavaScript应用程序  
+命令行工具  
+图形界面应用程序  
+混合应用程序  
 
-### CommonJS规范的支持情况
-目前，有四大平台支持CommonJS API：
-(1)Rhino:基于java实现的JavaScript脚本引擎
-(2)Spidermonkey:是一个用C语言实现的JavaScript脚本引擎
-(3)v8:基于C++实现的JavaScript脚本引擎
+### CommonJS规范的支持情况  
+目前，有四大平台支持CommonJS API：  
+(1)Rhino:基于java实现的JavaScript脚本引擎  
+(2)Spidermonkey:是一个用C语言实现的JavaScript脚本引擎  
+(3)v8:基于C++实现的JavaScript脚本引擎  
 (4)JavaScriptCore: 是一个把WebKit的JavaScript引擎用Objective-C进行封装，提供了简单，快速以及安全的方式J接入OS X Mavericks 和 iOS 7的一个库。
 
 注：关于JavaScriptCore，想了解更多详情请参加http://nshipster.cn/javascriptcore/
-### CommonJS的实现
-CommonJS有很多实现，其中不乏很多大名鼎鼎的项目，但这些项目大 部分只实现了CommonJS的部分规范。
-例：ode.js,CouchDB, Flusspferd, GLUEscript, GPSEE, JSBuild, Narwhal (0.1), Persevere, RingoJS, SproutCore 1.1/Tiki, n TeaJS (formerly v8cgi), Smart Platform, Yabble, Wakanda, XULJet等
+### CommonJS的实现  
+CommonJS有很多实现，其中不乏很多大名鼎鼎的项目，但这些项目大 部分只实现了CommonJS的部分规范。  
+例：ode.js,CouchDB, Flusspferd, GLUEscript, GPSEE, JSBuild, Narwhal (0.1), Persevere, RingoJS, SproutCore 1.1/Tiki, n TeaJS (formerly v8cgi), Smart Platform, Yabble, Wakanda, XULJet等  
 
-其主要有三个方面:
-1.require
-2.模块上下文：require、exports、module.exports
-3.模块标识符
-
-注：I.Module.exports和exports的使用场景。exports一般用于一些实例；而Module.exports则用于一个特定的类型。
-   II.具体的项目和实现部分参见官方网站的说明：http://commonjs.org/impl/
+其主要有三个方面:  
+1.require  
+2.模块上下文：require、exports、module.exports  
+3.模块标识符  
+ 
+注：I.Module.exports和exports的使用场景。exports一般用于一些实例；而Module.exports则用于一个特定的类型。   
+   II.具体的项目和实现部分参见官方网站的说明：http://commonjs.org/impl/  
 
 ### CommonJS的版本
-CommonJS Modules/1.0 
-CommonJS Modules/1.1.1
+CommonJS Modules/1.0   
+CommonJS Modules/1.1.1  
 
-## nodeJS模块的定义和调用
-1.定义:
-  (1)概念上：一个node.js文件就是一个模块
-  (2)操作上：
+## nodeJS模块的定义和调用  
+1.定义:  
+  (1)概念上：一个node.js文件就是一个模块  
+  (2)操作上：  
     a.js:
     exports.world = function() {
       console.log('Hello World');
@@ -78,14 +78,14 @@ CommonJS Modules/1.1.1
     }; 
     module.exports = Hello;
 
-2.调用:
+2.调用:  
   c.js
    var hello = require("a.js");
-   hello.world();
+   hello.world();  
 
-## nodeJS模块载入策略
-1.模块的分类：Node.js的模块分为两类.
-  (1)原生（核心）模块
+## nodeJS模块载入策略  
+1.模块的分类：Node.js的模块分为两类.  
+  (1)原生（核心）模块  
   (2)文件模块：文件模块又根据后缀名分为三类.
      <1>.js
      <2>.node
@@ -101,7 +101,7 @@ CommonJS Modules/1.1.1
   (2)加载的模块是原生模块的话，原生模块缓存区的优先级最高，其次再是原生模块。
   (3)加载的模块是非原生模块的话，根据文件模块的扩展名载入模块。
 
-3.其后的代码运行基本原理是：
+3.其背后的代码运行基本原理是：
   (1).先假设我们有两个js文件：app.js和circle.js
   circle.js:
   var PI = Math.PI;
