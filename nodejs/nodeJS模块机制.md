@@ -13,13 +13,6 @@
 3.JavaScript没有标准接口。  
 4.JavaScript没有包管理系统。   
 
-## 模块系统具体解决的问题：
-1.提供了一个密闭的作用域；  
-2.使依赖管理变的非常方便；  
-3.导出API方便其他人使用；  
-
-以上三个问题的解决为JavaScript大规模的应用奠定了基础。  
-
 ## CommonJS规范：  
 官方网站：http://commonjs.org/  
 
@@ -44,7 +37,7 @@ nodeJS模块机制是CommonJS规范的一个实现
 注：关于JavaScriptCore，想了解更多详情请参加http://nshipster.cn/javascriptcore/
 ### CommonJS的实现  
 CommonJS有很多实现，其中不乏很多大名鼎鼎的项目，但这些项目大 部分只实现了CommonJS的部分规范。  
-例：ode.js,CouchDB, Flusspferd, GLUEscript, GPSEE, JSBuild, Narwhal (0.1), Persevere, RingoJS, SproutCore 1.1/Tiki, n TeaJS (formerly v8cgi), Smart Platform, Yabble, Wakanda, XULJet等  
+例：node.js,CouchDB, Flusspferd, GLUEscript, GPSEE, JSBuild, Narwhal (0.1), Persevere, RingoJS, SproutCore 1.1/Tiki, n TeaJS (formerly v8cgi), Smart Platform, Yabble, Wakanda, XULJet等  
 
 其主要有三个方面:  
 1.require  
@@ -57,6 +50,13 @@ CommonJS有很多实现，其中不乏很多大名鼎鼎的项目，但这些项
 ### CommonJS的版本
 CommonJS Modules/1.0   
 CommonJS Modules/1.1.1  
+
+## 模块系统具体解决的问题：
+1.提供了一个密闭的作用域；  
+2.使依赖管理变的非常方便；  
+3.导出API方便其他人使用；  
+
+以上三个问题的解决为JavaScript大规模的应用奠定了基础。  
 
 ## nodeJS模块的定义和调用  
 1.定义:  
