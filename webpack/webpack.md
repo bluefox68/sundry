@@ -6,6 +6,7 @@ http://webpack.github.io/docs/list-of-loaders.html
 http://www.th7.cn/web/js/201507/109843.shtml
 https://segmentfault.com/a/1190000003506497
 http://blog.starkwang.com/2015/10/27/webpack/
+https://segmentfault.com/a/1190000003985802
 # loader列表
 https://webpack.github.io/docs/list-of-loaders.html
 # 使用webpack的理由
@@ -17,7 +18,6 @@ https://webpack.github.io/docs/list-of-loaders.html
 6.其使用的串联式模块加载器以及插件机制让其具有更好的灵活性和扩展性。
 
 # 基本配置项解析
-
 module.exports = {
   entry:[
     './app/main.js'
