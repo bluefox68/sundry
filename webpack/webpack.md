@@ -1,4 +1,6 @@
 # webpack学习参考文章
+
+
 http://www.infoq.com/cn/articles/react-and-webpack?utm_source=tuicool
 http://segmentfault.com/a/1190000003506497
 http://zhaoda.net/webpack-handbook/
@@ -7,6 +9,8 @@ http://www.th7.cn/web/js/201507/109843.shtml
 https://segmentfault.com/a/1190000003506497
 http://blog.starkwang.com/2015/10/27/webpack/
 https://segmentfault.com/a/1190000003985802
+## webpack的各大特色
+http://www.cnblogs.com/giveiris/p/5237080.html
 # loader列表
 https://webpack.github.io/docs/list-of-loaders.html
 # 使用webpack的理由
