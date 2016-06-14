@@ -1,5 +1,7 @@
 # webpack学习参考文章
+https://zhuanlan.zhihu.com/p/20397902
 
+http://www.infoq.com/cn/articles/frontend-engineering-webpack
 
 http://www.infoq.com/cn/articles/react-and-webpack?utm_source=tuicool
 http://segmentfault.com/a/1190000003506497
