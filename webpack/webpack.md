@@ -11,6 +11,7 @@ http://www.th7.cn/web/js/201507/109843.shtml
 https://segmentfault.com/a/1190000003506497
 http://blog.starkwang.com/2015/10/27/webpack/
 https://segmentfault.com/a/1190000003985802
+
 ## webpack的各大特色
 http://www.cnblogs.com/giveiris/p/5237080.html
 # loader列表
@@ -39,3 +40,12 @@ module.exports = {
     ]
   }
 };
+# 使用webpack编译es6 + react的代码的配置：
+module: {
+  loaders: [{
+    query:{
+      presets:["es2015","stage-0","react"],
+      sourceMap:true
+    }
+  }]
+}

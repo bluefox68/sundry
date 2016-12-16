@@ -1,3 +1,4 @@
+# 22
 南无、喝罗怛那、哆罗夜耶（Na Mo, Ha La Da Na, Duo La Ye Ye）
 南无、阿唎耶（Na Mo, Ou Li Ye）
 婆卢羯帝、烁钵罗耶（Po Lu Jie Di, Shuo Bo La Ye）
