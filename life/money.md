@@ -12,9 +12,6 @@
 
 # 产品 or 服务？
 
-
-
-
 # 接外包的一些网站
 1.http://www.sxsoft.com/
 2.http://www.taskcity.com/
