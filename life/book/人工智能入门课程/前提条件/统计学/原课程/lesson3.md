@@ -22,10 +22,10 @@ Today, we're going to dive into the second step of the machine learning workflow
 
 Data cleaning is one those things that everyone does but no one really talks about. Sure, it’s not the "sexiest" part of machine learning. And no, there aren’t hidden tricks and secrets to uncover.
 
+
 However, proper data cleaning can make or break your project. Professional data scientists usually spend a very large portion of their time on this step.
 
 Why? Because of a simple truth in machine learning:
-
 Better data beats fancier algorithms.
 
 In other words... garbage in gets you garbage out. Even if you forget everything else from this course, please remember this point.
@@ -35,6 +35,7 @@ In fact, if you have a properly cleaned dataset, even simple algorithms can lear
 Obviously, different types of data will require different types of cleaning. However, the systematic approach laid out in this lesson can always serve as a good starting point.
 
  
+
 2. Unwanted observations
 
 The first step to data cleaning is removing unwanted observations from your dataset.
@@ -49,7 +50,8 @@ Irrelevant observations are those that don’t actually fit the specific problem
 For example, if you were building a model for Single-Family homes only, you wouldn't want observations for Apartments in there.
 This is also a great time to review your charts from Exploratory Analysis. You can look at the distribution charts for categorical features to see if there are any classes that shouldn’t be there.
 Checking for irrelevant observations before engineering features can save you many headaches down the road.
- 
+
+
 3. Structural errors
 
 The next bucket under data cleaning involves fixing structural errors.
@@ -72,8 +74,12 @@ Image
 Finally, check for mislabeled classes, i.e. separate classes that should really be the same.
 e.g. If ’N/A’ and ’Not Applicable’ appear as two separate classes, you should combine them.
 e.g. ’IT’ and ’information_technology’ should be a single class.
- 
+
+
 4. Unwanted outliers
+
+4.不需要的极端值
+对某一类型的模型极端值可能引发问题。例如，线性回归模型与决策树模型相比，很少有极端值。
 
 Outliers can cause problems with certain types of models. For example, linear regression models are less robust to outliers than decision tree models.
 
@@ -85,6 +91,8 @@ We can’t stress this enough: you must have a good reason for removing an outli
 
  
 5. Missing data
+
+5.缺失数据
 
 Missing data is a deceptively tricky issue in applied machine learning.
 
