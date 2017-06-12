@@ -22,6 +22,7 @@ The second element is "fresh ingredients." The quality of your data determines t
 The third element is to "avoid overcooking it." Overfitting a serious pitfall, and you must take precautions.
 Awesome, we're already laying a strong foundation for applied machine learning.
 
+
 Today, we're going to dive into the first step of the core workflow: Exploratory Analysis.
 
  
@@ -29,18 +30,21 @@ Today, we're going to dive into the first step of the core workflow: Exploratory
 
 The purpose of exploratory analysis is to "get to know" the dataset. Doing so upfront will make the rest of the project much smoother, in 3 main ways:
 You’ll gain valuable hints for Data Cleaning (which can make or break your models).
+
 You’ll think of ideas for Feature Engineering (which can take your models from good to great).
+
 You’ll get a "feel" for the dataset, which will help you communicate results and deliver greater impact.
+
 However, exploratory analysis for machine learning should be quick, efficient, and decisive... not long and drawn out!
 
 Don’t skip this step, but don’t get stuck on it either.
 
 You see, there are a infinite possible plots, charts, and tables, but you only need a handful to "get to know" the data well enough to work with it. In this lesson, we'll show you the visualizations that provide the biggest bang for your buck.
 
- 
 2. Basic information
 
 First, you'll want to answer a set of basic questions about the dataset:
+
 How many observations do I have?
 How many features?
 What are the data types of my features? Are they numeric? Categorical?
@@ -54,7 +58,7 @@ Do the columns make sense?
 Do the values in those columns make sense?
 Are the values on the right scale?
 Is missing data going to be a big problem based on a quick eyeball test?
- 
+
 3. Distributions of numeric features
 
 Next, it can be very enlightening to plot the distributions of your numeric features.
@@ -87,7 +91,6 @@ In the best case, they don't influence the model much.
 In the worse case, they can cause the model to be overfit.
 Therefore, we recommend making a note to combine or reassign some of these classes later. We prefer saving this until Feature Engineering (Lesson 4).
 
- 
 5. Segmentations
 
 Segmentations are powerful ways to observe the relationship between categorical features and numeric features.
@@ -99,7 +102,7 @@ The median transaction price (middle vertical bar in the box) for Single-Family 
 The min and max transaction prices are comparable between the two classes.
 In fact, the round-number min ($200k) and max ($800k) suggest possible data truncation...
 ...which is very important to remember when assessing the generalizability of your models later!
- 
+
 6. Correlations
 
 Finally, correlations allow you to look at the relationships between numeric features and other numeric features.
