@@ -78,9 +78,6 @@ e.g. ’IT’ and ’information_technology’ should be a single class.
 
 4. Unwanted outliers
 
-4.不需要的极端值
-对某一类型的模型极端值可能引发问题。例如，线性回归模型与决策树模型相比，很少有极端值。
-
 Outliers can cause problems with certain types of models. For example, linear regression models are less robust to outliers than decision tree models.
 
 In general, if you have a legitimate reason to remove an outlier, it will help your model’s performance.
@@ -91,8 +88,6 @@ We can’t stress this enough: you must have a good reason for removing an outli
 
  
 5. Missing data
-
-5.缺失数据
 
 Missing data is a deceptively tricky issue in applied machine learning.
 
@@ -113,6 +108,7 @@ Again, "missingness" is almost always informative in itself, and you should tell
 Even if you build a model to impute your values, you’re not adding any real information. You’re just reinforcing the patterns already provided by other features.
 Image
 Missing data is like missing a puzzle piece. If you drop it, that’s like pretending the puzzle slot isn’t there. If you impute it, that’s like trying to squeeze in a piece from somewhere else in the puzzle.
+
 
 In short, you should always tell your algorithm that a value was missing because missingness is informative. So how can you do so?
  

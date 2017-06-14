@@ -1,10 +1,3 @@
-
-嘿 Leaves-27,我们已经完成了这个课程的一半。
-非常漂亮，让我们保持继续...许多好内容在第二个半节。
-昨天，你已经学习了一个用来清洗数据集的可靠框架。
-让我们揭晓下昨天的小测验的答案。
-
-
 Hey Leaves-27, we've hit the half-way mark!
 
 Nice, let's keep going... lots of great stuff to get to in the second half.
