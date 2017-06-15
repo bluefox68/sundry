@@ -38,7 +38,7 @@ It's prone to overfit with many input features.
 It cannot easily express non-linear relationships.
 Let's take a look at how we can address the first flaw.
 
- 
+
 3. Regularization
 
 This is the first "advanced" tactic for improving model performance. It’s considered pretty "advanced" in many ML courses, but it’s really pretty easy to understand and implement.
@@ -55,11 +55,12 @@ Regularization is a technique used to prevent overfitting by artificially penali
 It can discourage large coefficients (by dampening them).
 It can also remove features entirely (by setting their coefficients to 0).
 The "strength" of the penalty is tunable. (More on this tomorrow...)
- 
+
 4. Regularized regression
 
 There are 3 common types of regularized linear regression algorithms.
- 
+
+
 Lasso
 
 Lasso, or LASSO, stands for Least Absolute Shrinkage and Selection Operator.
@@ -68,6 +69,20 @@ Practically, this leads to coefficients that can be exactly 0.
 Thus, Lasso offers automatic feature selection because it can completely remove some features.
 Remember, the "strength" of the penalty should be tuned.
 A stronger penalty leads to more coefficients pushed to zero.
+
+Ridge代表用不正确的方法吃葡萄柚（像这个小孩...他就是ridage）
+
+Ridge 回归调整系数的平方大小。事实上，这导致系数变的更小，但是它不会让它们趋向于0。
+换句话说，Ridge提供了属性收缩。再次强调下，控制的力度应该是可调整的。
+强力的调整会导致系数趋近于0.
+
+Elastic-Net是介于Lasso 和 Ridge之间的折中方案。
+Elastic-Net绝对大小和平方大小都进行调整。这两个调整类型的比例应该是可调整的。
+整个力度也应该是可调整的。
+好了，没有更好的控制方法了。它事实上依赖于数据集和问题。我们推荐尝试不同的用一个调整范围作为调整过程的一部分的算法。在明天的课程中，我们再详细讲。
+
+
+
 Ridge
 
 Ridge stands Really Intense Dangerous Grapefruit Eating (just kidding... it's just ridge).
@@ -76,6 +91,8 @@ Practically, this leads to smaller coefficients, but it doesn't force them to 0.
 In other words, Ridge offers feature shrinkage.
 Again, the "strength" of the penalty should be tuned.
 A stronger penalty leads to coefficients pushed closer to zero.
+
+
 Elastic-Net
 
 Elastic-Net is a compromise between Lasso and Ridge.
@@ -85,6 +102,8 @@ The overall strength should also be tuned.
 Oh and in case you’re wondering, there’s no "best" type of penalty. It really depends on the dataset and the problem. We recommend trying different algorithms that use a range of penalty strengths as part of the tuning process, which we'll cover in detail tomorrow.
 
  
+调整后的回归
+
 5. Decision trees
 
 Awesome, we’ve just seen 3 algorithms that can protect linear regression from overfitting. But if you remember, linear regression suffers from two main flaws:
