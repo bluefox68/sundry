@@ -70,19 +70,6 @@ Thus, Lasso offers automatic feature selection because it can completely remove 
 Remember, the "strength" of the penalty should be tuned.
 A stronger penalty leads to more coefficients pushed to zero.
 
-Ridge代表用不正确的方法吃葡萄柚（像这个小孩...他就是ridage）
-
-Ridge 回归调整系数的平方大小。事实上，这导致系数变的更小，但是它不会让它们趋向于0。
-换句话说，Ridge提供了属性收缩。再次强调下，控制的力度应该是可调整的。
-强力的调整会导致系数趋近于0.
-
-Elastic-Net是介于Lasso 和 Ridge之间的折中方案。
-Elastic-Net绝对大小和平方大小都进行调整。这两个调整类型的比例应该是可调整的。
-整个力度也应该是可调整的。
-好了，没有更好的控制方法了。它事实上依赖于数据集和问题。我们推荐尝试不同的用一个调整范围作为调整过程的一部分的算法。在明天的课程中，我们再详细讲。
-
-
-
 Ridge
 
 Ridge stands Really Intense Dangerous Grapefruit Eating (just kidding... it's just ridge).
@@ -124,6 +111,9 @@ Unfortunately, decision trees suffer from a major flaw as well. If you allow the
 As a result, individual unconstrained decision trees are very prone to being overfit.​
 
 So, how can we take advantage of the flexibility of decision trees while preventing them from overfitting the training data?
+
+5.决策树
+好了，
 
  
 6. Ensembles
