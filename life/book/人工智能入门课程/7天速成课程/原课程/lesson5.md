@@ -91,6 +91,9 @@ Oh and in case you’re wondering, there’s no "best" type of penalty. It reall
  
 调整后的回归
 
+
+
+
 5. Decision trees
 
 Awesome, we’ve just seen 3 algorithms that can protect linear regression from overfitting. But if you remember, linear regression suffers from two main flaws:
@@ -111,10 +114,6 @@ Unfortunately, decision trees suffer from a major flaw as well. If you allow the
 As a result, individual unconstrained decision trees are very prone to being overfit.​
 
 So, how can we take advantage of the flexibility of decision trees while preventing them from overfitting the training data?
-
-5.决策树
-好了，
-
  
 6. Ensembles
 
@@ -129,18 +128,20 @@ A weak learner is a constrained model (i.e. you could limit the max depth of eac
 Each one in the sequence focuses on learning from the mistakes of the one before it.
 Boosting then combines all the weak learners into a single strong learner.
 While bagging and boosting are both ensemble methods, they approach the problem from opposite directions. Bagging uses complex base models and tries to "smooth out" their predictions, while boosting uses simple base models and tries to "boost" their aggregate complexity.
+
+
  
 7. Tree ensembles
 
 Ensembling is a general term, but when the base models are decision trees, they have special names: random forests and boosted trees!
- 
-Random forests
 
 Random forests train a large number of "strong" decision trees and combine their predictions through bagging.
 
 In addition, there are two sources of "randomness" for random forests:
 Each tree is only allowed to choose from a random subset of features to split on (leading to feature selection).
 Each tree is only trained on a random subset of observations (a process called resampling).
+
+
 In practice, random forests tend to perform very well right out of the box.
 They often beat many other models that take up to weeks to develop.
 They are the perfect "swiss-army-knife" algorithm that almost always gets good results.
@@ -153,7 +154,7 @@ Each tree in the sequence tries to correct the prediction errors of the one befo
 In practice, boosted trees tend to have the highest performance ceilings.
 They often beat many other types of models after proper tuning.
 They are more complicated to tune than random forests.
- 
+
 8. Conclusion
 
 Whew, that was a lot! If you need to, feel free to let it sink in a bit and then re-read the lesson.
@@ -176,6 +177,7 @@ As a final note, we had two goals for this lesson: (1) to introduce powerful mec
 Again, feel free to hit 'reply' and send us an email if you have any questions or comments. We'll respond to every message.
 
 Now that you have some great algorithms in your toolkit, tomorrow's installment will teach you how to apply them the right way for Model Training.
+
 
 Until then,
 
