@@ -31,8 +31,9 @@ Again, that’s because better data beats fancier algorithms.
 
 This this lesson, you'll learn how to set up the entire modeling process to maximize performance while safeguarding against overfitting. We will swap algorithms in and out and automatically find the best parameters for each one.
 
- 
+
 2. Split dataset
+
 
 Let’s start with a crucial but sometimes overlooked step: Spending your data.
 
@@ -50,7 +51,6 @@ This is the best way to get reliable estimates of your models’ performance.
 After splitting your data, don’t touch your test set until you’re ready to choose your final model!
 Comparing test vs. training performance allows us to avoid overfitting... If the model performs very well on the training data but poorly on the test data, then it’s overfit.
 
- 
 3. Hyperparameters
 
 So far, we’ve been casually talking about "tuning" models, but now it’s time to treat the topic more formally.
@@ -86,7 +86,6 @@ Perform steps (2) and (3) 10 times, each time holding out a different fold.
 Average the performance across all 10 hold-out folds.
 The average performance across the 10 hold-out folds is your final performance estimate, also called your cross-validated score. Because you created 10 mini train/test splits, this score is usually pretty reliable.
 
- 
 5. Fit and tune models
 
 Now that we've split our dataset into training and test sets, and we've learned about hyperparameters and cross-validation, we're ready fit and tune our models.
@@ -136,6 +135,7 @@ When should you split your dataset into training and test sets, and why?
 What's the key difference between model parameters and hyperparameters?
 Explain how cross-validation helps you "tune" your models?
 Tomorrow, for the final day in our 7-part series, we'll discuss next steps and the best way to start applying the concepts you've learned in this course.
+
 
 You won't want to miss it,
 

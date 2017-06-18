@@ -1,3 +1,5 @@
+
+
 Welcome to the final day of the crash course!
 
 We've got a very special final installment for you, but first, let's review answers to yesterday's quiz.
@@ -12,6 +14,7 @@ Hyperparameters must be set before training a model (i.e. penalty strength).
 Explain how cross-validation helps you "tune" your models?
 ​Cross-validation allows you to use only your training set to evaluate how an algorithm performs using different sets of hyperparameter values.
 You can use the cross-validated scores (on the hold-out folds) to pick the best set of hyperparameter values.
+
 
 Nice job following along so far... we've really cover a lot of ground over the last week.
 On day 1, you saw a bird's-eye view of the entire machine learning workflow.
@@ -48,7 +51,7 @@ Of course, you may be wondering, if we've already given you the complete bluepri
 
 Well, quite simply, there's a lot that we couldn't squeeze into these 7 days...
 
- 
+
 2. Learn how to code and implement each step
 
 The first one is obvious. We couldn't include source code in this crash course because everyone comes from different experience levels.

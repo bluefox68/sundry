@@ -136,7 +136,7 @@ We'll teach you strategies for preventing overfitting by (A) choosing the right 
 在医院中过度拟合模型可能付出成千上万条生命的代价。
 在许多应用中，过度拟合出现不是很高的，但是过度拟合仍然是你必须避免的最大错误。
 
-为了防止过度拟合，我们将通过选择正确的算法和正确的调整它们来教授你一些策略。
+为了防止过度拟合，我们将通过选择正确的算法和正确的调试它们来教授你一些策略。
  
 6. The core workflow
 

@@ -89,7 +89,7 @@ The overall strength should also be tuned.
 Oh and in case you’re wondering, there’s no "best" type of penalty. It really depends on the dataset and the problem. We recommend trying different algorithms that use a range of penalty strengths as part of the tuning process, which we'll cover in detail tomorrow.
 
  
-调整后的回归
+调试后的回归
 
 
 
