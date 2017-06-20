@@ -27,9 +27,9 @@ Today, in day 4 of our 7-day crash course, we're going to discuss Feature Engine
 Feature engineering is about creating new input features from your existing ones.
 
 This is often one of the most valuable tasks a data scientist can do to improve model performance, for 3 big reasons:
-You can isolate and highlight key information, which helps your algorithms "focus" on what’s important.
-You can bring in your own domain expertise.
-Most importantly, once you understand the "vocabulary" of feature engineering, you can bring in other people’s domain expertise!
+  You can isolate and highlight key information, which helps your algorithms "focus" on what’s important.
+  You can bring in your own domain expertise.
+  Most importantly, once you understand the "vocabulary" of feature engineering, you can bring in other people’s domain expertise!
 In this lesson, we will introduce several heuristics to help spark new ideas.
 
 Before moving on, we just want to note that this is not an exhaustive compendium of all feature engineering because there are limitless possibilities for this step.
