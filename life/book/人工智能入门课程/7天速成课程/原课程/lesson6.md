@@ -31,7 +31,6 @@ Again, that’s because better data beats fancier algorithms.
 
 This this lesson, you'll learn how to set up the entire modeling process to maximize performance while safeguarding against overfitting. We will swap algorithms in and out and automatically find the best parameters for each one.
 
-
 2. Split dataset
 
 
