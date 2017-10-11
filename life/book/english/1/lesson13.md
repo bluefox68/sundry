@@ -1,26 +1,16 @@
-a new dress
+# 句型：
+what xx is xw
+it's ...
+that's ...
 
 
-what color is __Anna's__ hat?
-
-
-what color's your new dress?
-
-it is green
-
-come upstairs and see it.
-thank you.
-look ! here it is .that's nice dress.it's very smart.
-
-my hat's new ,too.
-what color is it?
-it's the same color .it's geen,too.
-that's a lovely hat.
-
-
-生词：
+# 生词：
 dress
 upstairs
-smart
-lovely
+nice:讨人喜欢
+smart:使人显得漂亮
+lovely:指某个东西“美,可爱”
 Anna
+
+come upstairs
+here it is
