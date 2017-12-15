@@ -31,3 +31,28 @@ console的用法:
 写额外的脚本:
 联系开发者:
 
+# 各个部分的联系
+
+开发环境 : 用来运行开发的合约
+开发的合约 : 
+客户端: 用来将开发的合约进行编译、移植使其在区块链上运行.
+
+# 组成部分
+
+账户(accounts)：
+  账户组成：地址和状态。
+    状态：
+      nonce：交易序号或合约序号
+      balance：此地址拥有Wei的数量。1Ether=10^18Wei
+      storageRoot：Merkle Patricia树的根节点Hash值，默认是空值。
+      codeHash：此账户EVM代码的hash值。代码的Hash值或空字符串的Hash。
+  账户类别：合约账户和外部账户。
+状态(state)：
+损耗和费用(gas and fees)
+
+交易(transactions)
+区块(blocks)
+交易执行(transaction execution)
+挖矿(mining)
+工作量证明(proof of work)
+

@@ -94,13 +94,14 @@
 </template>
 <script>
   import reset from '../common/reset.css'
+  import  Journey from '../api/journey'
   // import loading from '../component/loading.vue'
 
   const Home = {
     data(){
       return {
-        "errMsg" : "",
-        list:[{
+        urlPrefix : "http://115.239.255.114:8888/",
+        customRouteDaysVOList : [{
           date:"第一天",
           tourist:{
             title:"大木山景区",
@@ -130,24 +131,12 @@
     methods:{
       getData(){
         const _self = this;
-        let url = "www.baidu.com";
+        let url = _self.urlPrefix + "mobile/api/customRoute/query";
+        let result = Utils.get(location.href);
 
-        // $.ajax({
-        //   url : url,
-        //   type:"get",
-        //   timeout: 5000,
-        //   dataType:"json",
-        //   success(result){
-        //     // if(result.code == 0){
-        //     //
-        //     // }else{
-        //     //   _self.errMsg = result.errMsg;
-        //     // }
-        //   },
-        //   error(xhr){
-        //     // _self.errMsg = "请稍后再试";
-        //   }
-        // });
+        Journey.get(result.favour,result.playTime,(data)=>{
+
+        });
       }
     }
   }
