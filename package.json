@@ -1,0 +1,19 @@
+{
+  "name": "piecemeal",
+  "version": "1.0.0",
+  "description": "本项目是关于人文历史、生活日常、奇思妙想、读书后感、技术文章的记录.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leaves-27/piecemeal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leaves-27/piecemeal/issues"
+  },
+  "homepage": "https://github.com/leaves-27/piecemeal#readme"
+}
