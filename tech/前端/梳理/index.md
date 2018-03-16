@@ -23,3 +23,5 @@
   JS的解释阶段，预处理阶段，执行阶段生成执行上下文，VO，作用域链、回收机制等等
   
 9.其他
+
+详见：https://zhuanlan.zhihu.com/p/34453198?utm_source=wechat_session&utm_medium=social&wechatShare=1
