@@ -1,5 +1,6 @@
 1.http的作用:
   HTTP协议（HyperText Transfer Protocol，超文本传输协议）是用于从WWW服务器传输超文本到本地浏览器的传送协议。
+  
 2.http的工作流程:
   次HTTP操作称为一个事务,其工作过程可分为四步：
   (1)客户机与服务器需要建立连接
