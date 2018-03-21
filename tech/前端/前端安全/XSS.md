@@ -1,7 +1,6 @@
+# XSS的类型：
+1.反射型XSS:
+2.存储型XSS:
+3.DOM XSS:
 
 
-
-# 防范措施
-
-1.XSS攻击代码过滤:js-xss,在前端和服务端分别做过滤。
-2.采用HTTP-Only Cookies

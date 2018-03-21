@@ -10,4 +10,10 @@
 1.通过页面输入框输入js代码获取cookie，并在输入框中执行其他js代码来执行恶意程序。
 2.通过在评论中提交恶意js代码，然后诱导用户点击来获取用户cookie。
 
+# 防范措施：
+1.XSS攻击代码过滤:js-xss,在前端和服务端分别做过滤。
+2.HttpOnly和secure属性
+  (1)HttpOnly:设置后js脚本无法操作cookie。
+  (2)secure:设置后，cookie仅在https中传输。
+
 详见：http://www.jb51.net/article/61553.htm
