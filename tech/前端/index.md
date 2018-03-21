@@ -10,22 +10,17 @@
 dpi:每英寸的打印点数
 ppi:每英寸的像素数
 
-# token 认证机制:
-http://www.cnblogs.com/xiekeli/p/5607107.html
-
-# 防范跨站攻击:
-http://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html
-
-# cookie、session:
 
 # 相关知识点
 http://www.360doc.com/content/17/0611/00/41256502_661752295.shtml
 
-# 展示性网站
-http://www.uzooo.cn/template/view/?tid=UZ-040101007
-http://www.edgeofmyseat.com/
+# 需要弄清的知识点
+1.xss:
+2.cookie安全性:
+3.事件委托:
+4.设计模式:
+5.vue的虚拟dom和插件原理
 
-#
 
 
 
