@@ -6,12 +6,12 @@
 3.数据的大小限制在4KB。
 4.cookie中使用Unicode字符时需要对Unicode字符进行编码，否则会乱码。例:中文属于Unicode字符.
 
-# cookie的安全性:
+# cookie的安全性:=========================================
 1.通过页面输入框输入js代码获取cookie，并在输入框中执行其他js代码来执行恶意程序。
 2.通过在评论中提交恶意js代码，然后诱导用户点击来获取用户cookie。
 
 # 防范措施：
-1.XSS攻击代码过滤:js-xss,在前端和服务端分别做过滤。
+1.XSS攻击代码过滤:在前端和服务端分别做过滤。
 2.HttpOnly和secure属性
   (1)HttpOnly:设置后js脚本无法操作cookie。
   (2)secure:设置后，cookie仅在https中传输。
