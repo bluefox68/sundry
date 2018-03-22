@@ -22,6 +22,11 @@ http://www.360doc.com/content/17/0611/00/41256502_661752295.shtml
 5.vue的虚拟dom和插件原理
 
 
+# 今日任务
+1.整理浏览器合成和本地下载的可行性预研:
+2.setInterval和setTimeout的本质和性能的对应关系深究:
+
+
 
 
 
