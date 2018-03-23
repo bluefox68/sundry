@@ -17,3 +17,7 @@
   DOMContentLoaded
   readystatechange
   load
+
+# 浏览器进程/线程模型
+## 浏览器渲染进程 
+### 
