@@ -1,4 +1,4 @@
-//监听者
+//监听器
 
 import Dep from './dep'
 
