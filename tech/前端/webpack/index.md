@@ -1,21 +1,23 @@
 # webpack学习参考文章
-https://zhuanlan.zhihu.com/p/20397902
+  https://zhuanlan.zhihu.com/p/20397902
 
-http://www.infoq.com/cn/articles/frontend-engineering-webpack
+  http://www.infoq.com/cn/articles/frontend-engineering-webpack
 
-http://www.infoq.com/cn/articles/react-and-webpack?utm_source=tuicool
-http://segmentfault.com/a/1190000003506497
-http://zhaoda.net/webpack-handbook/
-http://webpack.github.io/docs/list-of-loaders.html
-http://www.th7.cn/web/js/201507/109843.shtml
-https://segmentfault.com/a/1190000003506497
-http://blog.starkwang.com/2015/10/27/webpack/
-https://segmentfault.com/a/1190000003985802
+  http://www.infoq.com/cn/articles/react-and-webpack?utm_source=tuicool
+  http://segmentfault.com/a/1190000003506497
+  http://zhaoda.net/webpack-handbook/
+  http://webpack.github.io/docs/list-of-loaders.html
+  http://www.th7.cn/web/js/201507/109843.shtml
+  https://segmentfault.com/a/1190000003506497
+  http://blog.starkwang.com/2015/10/27/webpack/
+  https://segmentfault.com/a/1190000003985802
 
 ## webpack的各大特色
-http://www.cnblogs.com/giveiris/p/5237080.html
+  http://www.cnblogs.com/giveiris/p/5237080.html
+
 # loader列表
-https://webpack.github.io/docs/list-of-loaders.html
+  https://webpack.github.io/docs/list-of-loaders.html
+
 # 使用webpack的理由
 1.其同时支持目前存在的AMD、CommonJS模块以及挂在全局对象window上面的js的打包。//如何实现？
 2.可以基于配置或者智能分析打包成多个文件，实现公共模块或者按需加载.//如何实现？
@@ -41,20 +43,22 @@ module.exports = {
   }
 };
 # 使用webpack编译es6 + react的代码的配置：
-module: {
-  loaders: [{
-    query:{
-      presets:["es2015","stage-0","react"],
-      sourceMap:true
-    }
-  }]
-}
+  module: {
+    loaders: [{
+      query:{
+        presets:["es2015","stage-0","react"],
+        sourceMap:true
+      }
+    }]
+  }
 
 # CommonsChunkPlugin（详见：https://github.com/liangklfangl/commonsChunkPlugin_Config）
-作用：将公有代码单独打包
+  作用：将公有代码单独打包
+  
 ##情况一：多入口文件时，把引用多次的模块单独打包
 ##情况二：将公共业务模块与类库或框架分开打包
 ##情况三：将公用业务代码打包到类库包中。
+
 # externals
 作用：用来声明将哪些库不编译到输出的包中，而是通过其他方式引入(例如script的src方式)
 # libraryTarget

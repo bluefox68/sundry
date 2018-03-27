@@ -20,5 +20,7 @@
     1>body元素
     2>浮动除none之外的值
     3>overflow除visible之外的值
+    4>position的值不为relative和static
+    5>display的值为table-cell, table-caption, inline-block中的任何一个。
 
 详见：https://baijiahao.baidu.com/s?id=1580578435186877828&wfr=spider&for=pc
