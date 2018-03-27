@@ -7,11 +7,37 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <style>
       body{background-color:#ff0000;}
-      .parent{/*padding:0 100px;*/}
-      .aside1{margin-top:100px;float:left;width:250px;height:100vh;background-color: #00ff00;margin-left:-100%;/*position: relative;left:-100px;*/}
-      .aside2{margin-top:100px;float:left;width:250px;height:100vh;background-color: #00ff00;margin-left:-250px;/*position:relative;right:-100px;*/}
-      .main{float:left;background-color:#ccc;width:100%;height:100vh;}
-      .main-inner{height:100vh;margin:0 250px;background-color:#fff000;}
+      .left{
+        width:250px;
+        height:100vh;
+        float:left;
+        margin-left:-100%;
+
+        margin-top:100px;
+        background-color: #00ff00;
+      }
+      .right{
+        width:250px;
+        height:100vh;
+        float:left;
+        margin-left:-250px;
+
+        margin-top:100px;
+        background-color: #00ff00;
+      }
+      .main{
+        width:100%;
+        height:100vh;
+        float:left;
+
+        background-color:#ccc;
+      }
+      .main-inner{
+        height:100vh;
+        margin:0 250px;
+        
+        background-color:#fff000;
+      }
     </style>
   </head>
   <body>
@@ -19,12 +45,10 @@
       <div class="main">
         <div class="main-inner" ></div>
       </div>
-      <div class="aside1">
-        <div style="height:5000px;background-color: #fe00ff">
-          左
-        </div>
+      <div class="left">
+        左
       </div>
-      <div class="aside2">
+      <div class="right">
         右 
       </div>
     </div>

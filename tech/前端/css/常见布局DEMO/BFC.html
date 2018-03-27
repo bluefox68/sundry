@@ -7,23 +7,21 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <style>
       body{background-color:#ff0000;}
-      .aside{float:left;width:300px;height:100px;background-color: #00ff00;margin-top:100px;}
-      .aside1{float:right;width:300px;height:100px;background-color: #00ff00;margin-top:100px;}
-      .main{background-color:#ccc;height:100vh;margin-left:300px;margin-right:300px;}
+      .left{float:left;width:300px;height:100px;background-color: #00ff00;margin-top:100px;}
+      .right{float:right;width:300px;height:100px;background-color: #00ffff;margin-top:100px;}
+      .main{background-color:#ccc;height:100vh;overflow: hidden;}
     </style>
   </head>
   <body>
     <div>
-      <div class="aside">
-        <div style="height:5000px;background-color: #fe00ff">
-          1
-        </div>
+      <div class="left">
+        左
       </div>
-      <div class="aside1">
-        test
+      <div class="right">
+        右
       </div>
       <div class="main">
-        
+        我是main
       </div>
     </div>
   </body>
