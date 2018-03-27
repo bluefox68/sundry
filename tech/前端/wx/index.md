@@ -23,3 +23,7 @@
     4）index.json:
 
 3.手机预览:
+
+
+详情参见：
+  https://mp.weixin.qq.com/debug/wxadoc/dev/
