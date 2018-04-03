@@ -1,7 +1,13 @@
-# 常见的字符编码：
-ascii: 一个字节 
-unicode: 二个字节  
-utf8: 传输用的可变字节的。1-6个字节
+# 字符编码：
+  ascii: 一个字节，主要为英文字母，及主要为英文。
+  unicode: 二个字节，所有语言通用。
+  utf8: 传输用的可变字节。1-6个字节。
 
-#
-https://wdd.js.org/top-11-javascript-libraries-are-worth-your-attention.html
+# 文档编码：
+  html编码:
+  js编码:
+  url编码:
+
+参见：
+  https://www.cnblogs.com/leesf456/p/5317574.html
+
