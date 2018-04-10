@@ -25,8 +25,6 @@ y轴方向：为服务添加新的功能，功能性拓展
 z轴方向：按照业务数据对服务进行拓展（这里没搞懂，不知道这么说是否准确）
 
 
-https://blog.csdn.net/mogigo00/article/details/54948894
-
-
 详细参加:
   https://blog.csdn.net/u010098331/article/details/53731118
+  https://blog.csdn.net/mogigo00/article/details/54948894
