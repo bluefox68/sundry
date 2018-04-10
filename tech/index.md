@@ -5,9 +5,7 @@
   IP地址的构成:
   
 2.路由器:
-4.netstat命令:一般用于检验本机各端口的网络连接情况。
-5.前端应用错误监控:
-6.前端应用发布:
+3.netstat命令:一般用于检验本机各端口的网络连接情况。
 
 详情参见：
   https://blog.csdn.net/freeking101/article/details/53520974
