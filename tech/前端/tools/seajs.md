@@ -1,5 +1,4 @@
 # 模块的定义
-
 使用define函数：该函数入参可以是函数、对象、字符串。
 暴露模块的方法：
   module.exports
@@ -12,4 +11,7 @@ seajs.config:
   paths:用来缩写路径
   preload：在加载普通模块之前提前加载的模块
 seajs.use
+
+详细参见：
+  http://yslove.net/seajs/
 

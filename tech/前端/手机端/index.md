@@ -3,4 +3,4 @@
   (2)retina屏和普通屏:根据设备像素比设置是加载2x图还是原图。
   
 2.web手机端调试
-https://www.cnblogs.com/xy-nb/p/web.html
+  https://www.cnblogs.com/xy-nb/p/web.html
