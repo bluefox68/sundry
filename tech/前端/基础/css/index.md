@@ -22,5 +22,8 @@
     3>overflow除visible之外的值
     4>position的值不为relative和static
     5>display的值为table-cell, table-caption, inline-block中的任何一个。
+三、css布局方案
 
-详见：https://baijiahao.baidu.com/s?id=1580578435186877828&wfr=spider&for=pc
+详见：
+  https://baijiahao.baidu.com/s?id=1580578435186877828&wfr=spider&for=pc
+  https://mp.weixin.qq.com/s/uK1_ccjtFyV9o6p_qwd8eQ

@@ -16,6 +16,9 @@ R3CEV
 比特币中国
 币行
 
+# 疑问
+如何保证交易成功的及时性
+
 详细参见:
   http://book.8btc.com/books/1/master_bitcoin/_book/
   http://book.8btc.com/books/6/masterbitcoin2cn/_book/
