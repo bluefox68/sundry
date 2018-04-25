@@ -80,8 +80,11 @@
     (2)mac上：Charles。详见：http://www.jianshu.com/p/2dc5ae8ba46a
   4.ESLint/JSHint:代码检查工具
   5.Mocha/Jasmine/QUnit:测试
-
-
+  6.mysql客户端：
+    MySQLWorkbench:https://dev.mysql.com/downloads/workbench/ 
+    其他参见：
+      https://www.cnblogs.com/william-lee/p/7065061.html
+      https://www.zhihu.com/question/21792734
 
 
 
