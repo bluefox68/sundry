@@ -20,3 +20,7 @@
   (2)async/await比generator/yield语义更清晰适用更广。
 6.其他异步实现：
 http://www.ruanyifeng.com/blog/2012/12/asynchronous%EF%BC%BFjavascript
+
+http://www.ruanyifeng.com/blog/2015/04/generator.html
+
+https://www.zhihu.com/question/30820791
