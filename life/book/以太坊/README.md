@@ -10,3 +10,4 @@
 详细参加见：
   http://truffle.tryblockchain.org/index.html
   http://wiki.jikexueyuan.com/project/solidity-zh/introduction-smart-contracts.html
+  http://book.8btc.com/books/6/ethereum/_book/

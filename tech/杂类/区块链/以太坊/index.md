@@ -56,3 +56,9 @@ console的用法:
 挖矿(mining)
 工作量证明(proof of work)
 
+详情参见:
+  http://book.8btc.com/books/6/ethereum/_book/
+
+
+
+
