@@ -1,2 +1,4 @@
 #sublime常用插件
-  htmlpretty:js格式化
+  HTML-CSS-JS Prettify:
+  jsonschema:
+  Sublimerge 3:

@@ -86,6 +86,9 @@
       https://www.cnblogs.com/william-lee/p/7065061.html
       https://www.zhihu.com/question/21792734
   7.Postman：模拟请求
+  8.prismjs：代码高亮的库
+    具体参见：http://prismjs.com/extending.html
+
 
 
 详细参加：
