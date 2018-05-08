@@ -21,3 +21,6 @@
 ## IP首部
 ## IP数据体
 
+详情参见：
+  https://www.cnblogs.com/red-code/p/7132023.html
+
