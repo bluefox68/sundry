@@ -1,2 +1,15 @@
-# netstat
-用来在网络连接出现大量异常的情况下，检查发生了什么
+# 网络连接状态
+1.LISTEN:
+2.SYN_SENT:
+3.SYN_RECV:
+4.ESTABLISHED:
+5.FIN_WAIT1:
+6.CLOSE_WAIT:
+7.FIN_WAIT2:
+8.LAST_ACK:
+9.TIME_WAIT:
+10.CLOSING:
+11.CLOSED:
+12.UNKNOWN:
+
+# 

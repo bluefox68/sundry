@@ -42,7 +42,7 @@
 
 
 详情：
-https://elitedatascience.com/python-machine-learning-tutorial-scikit-learn
+  https://elitedatascience.com/python-machine-learning-tutorial-scikit-learn
 
 自学方法：
-https://elitedatascience.com/learn-machine-learning
+  https://elitedatascience.com/learn-machine-learning
