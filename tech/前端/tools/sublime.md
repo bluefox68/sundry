@@ -1,4 +1,2 @@
 #sublime常用插件
-  HTML-CSS-JS Prettify:
-  jsonschema:
-  Sublimerge 3:
+  solidity高亮插件安装：https://www.jianshu.com/p/6578897771f5
