@@ -12,8 +12,6 @@
 4.布局: 布局对象
 5.绘制:
 
-
-
 详细参见：
   https://blog.csdn.net/dangnian/article/details/50876241
   https://juejin.im/entry/59f010fdf265da4315231caa
