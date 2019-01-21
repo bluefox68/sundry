@@ -13,11 +13,12 @@
   (1)相同点：都使串行执行变的更优雅;
   (2)不同点：
     1>async/await基于Promise；
-    2>Promise传了用来处理串行执行，也可用来进行并行执行的处理。
+    2>Promise除了用来处理串行执行，也可用来进行并行执行的处理。
     
 5.async/await和generator/yield的异同点:
   (1)async是generator的包装，await等同于yield。
   (2)async/await比generator/yield语义更清晰适用更广。
+  
 6.其他异步实现：
 http://www.ruanyifeng.com/blog/2012/12/asynchronous%EF%BC%BFjavascript
 

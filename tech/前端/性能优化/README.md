@@ -8,6 +8,7 @@
   (2)expire/cache-control:
   (3)last-modified/if-modified-since:
   (4)Etag/If-None-Match:
+  
  注：浏览器缓存详见https://www.cnblogs.com/etoah/p/5579622.html
 
 4.减少下载量:开启gzip压缩.

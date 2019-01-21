@@ -2,8 +2,6 @@
 http://camsong.github.io/redux-in-chinese/docs/introduction/Ecosystem.html
 http://blog.kazaff.me/2015/10/08/[%E8%AF%91]%E5%85%A8%E6%A0%88Redux%E5%AE%9E%E6%88%98/?utm_source=tuicool&utm_medium=referral
 
-c
-
 应用redux的文章
 http://www.jianshu.com/p/14933fd9c312
 http://www.tuicool.com/articles/7FZreu2
