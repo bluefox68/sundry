@@ -11,7 +11,7 @@
 # 四、javascript的编码函数：
 (1)escape():返回一个字符的Unicode编码值。
 (2)encodeURI():对整个URL进行编码，输出utf8编码值。
-(3)encodeURIComponent():对URI中的局部进行编码。可对uri保留字进行转码。
+(3)encodeURIComponent(): 对URI中的局部进行编码。可对uri保留字进行转码。
 
 # 五、详情参见：
 http://www.ruanyifeng.com/blog/2010/02/url_encoding.html

@@ -10,4 +10,5 @@
 1.webpack-merge:
 2.extract-text-webpack-plugin:
 3.webpack-dev-middleware:
+4.webpack-bundle-analyzer:
 
