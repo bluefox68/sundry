@@ -1,0 +1,9 @@
+[submodule "tech"]
+	path = tech
+	url = /Users/leaves/Documents/workspace2/tech
+[submodule "life"]
+	path = life
+	url = /Users/leaves/Documents/workspace2/life
+[submodule "project"]
+	path = project
+	url = /Users/leaves/Documents/workspace2/project
