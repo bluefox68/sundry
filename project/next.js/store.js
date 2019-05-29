@@ -1,9 +1,0 @@
-import { createStore, applyMiddleware } from 'redux'
-import thunkMiddleware from 'redux-thunk'
-import reducer from './reducer'
-
-const initialState = {}
-
-export const initStore = (initialState = initialState) => {
-  return createStore(reducer,initialState, applyMiddleware(thunkMiddleware))
-}

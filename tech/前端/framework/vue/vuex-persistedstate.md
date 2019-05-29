@@ -1,2 +1,0 @@
-# 原理
-在mutation的时候，使用localStorage对数据进行持久化
