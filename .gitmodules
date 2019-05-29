@@ -1,9 +1,9 @@
 [submodule "tech"]
 	path = tech
-	url = /Users/leaves/Documents/workspace2/tech
+	url = https://github.com/leaves-27/tech.git
 [submodule "life"]
 	path = life
-	url = /Users/leaves/Documents/workspace2/life
+	url = https://github.com/leaves-27/life.git
 [submodule "project"]
 	path = project
-	url = /Users/leaves/Documents/workspace2/project
+	url = https://github.com/leaves-27/project.git
